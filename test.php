@@ -1,4 +1,6 @@
 <?
+var_dump(curl_init());
+exit();
 $headers = array(
     'Content-Type:multipart/form-data',
     'Authorization:D2SoFITQ30GNTzmRzacyd3uqkZocPFpMUBkvVAsbpfh'
