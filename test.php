@@ -1,4 +1,6 @@
 <?
+var_dump($_POST);
+exit();
 $headers = array(
     'Method:POST',
     'Content-Type:multipart/form-data',
