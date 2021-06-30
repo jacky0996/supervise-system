@@ -1,0 +1,14 @@
+{
+    "name": "shanelin/supervise-system",
+    "type": "library",
+    "require": {
+        "php": "^7.3"
+    },
+    "authors": [
+        {
+            "name": "Shane Lin",
+            "email": "shane.lin@gigamedia.com.tw"
+        }
+    ],
+    "minimum-stability": "dev"
+}
