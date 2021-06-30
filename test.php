@@ -1,5 +1,5 @@
 <?
-var_dump($_POST);
+var_dump($_POST,$SESSION);
 exit();
 $headers = array(
     'Method:POST',
