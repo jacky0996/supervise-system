@@ -12,7 +12,5 @@ curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
 curl_setopt($ch, CURLOPT_POST, true);
 curl_setopt($ch, CURLOPT_POSTFIELDS, $message);
 $result = curl_exec($ch);
-var_dump($result);
-exit();
 curl_close($ch);
 ?>
