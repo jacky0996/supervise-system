@@ -11,8 +11,8 @@ curl_setopt($ch , CURLOPT_URL , "https://supervise-system.herokuapp.com/test.php
 curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
 curl_setopt($ch, CURLOPT_POST, true);
 curl_setopt($ch, CURLOPT_POSTFIELDS, $message);
-var_dump('123456');
-exit();
 $result = curl_exec($ch);
+var_dump($result);
+exit();
 curl_close($ch);
 ?>
