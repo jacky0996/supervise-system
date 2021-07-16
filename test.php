@@ -1,10 +1,9 @@
 <?
-var_dump($_POST,$SESSION);
-exit();
+
 $headers = array(
     'Method:POST',
     'Content-Type:multipart/form-data',
-    'Authorization:Bearer o32BbX7YBvbRYQecmQUr1G2R0b0326lRoI4j5L9yKSB'
+    'Authorization:Bearer rpQtPThuTGkzSUUTgWKGW33G4ZRINzF6tWZC8yf5QOE'
 );
 $message = array(
     'message'=>'Hello,Shane'
